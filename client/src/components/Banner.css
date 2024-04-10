@@ -1,0 +1,6 @@
+/* Assuming your Navbar is 64px and Footer is 112px */
+.banner-height {
+  height: calc(
+    100vh - 64px - 112px
+  ); /* Adjust the px values as per your actual Navbar and Footer heights */
+}
